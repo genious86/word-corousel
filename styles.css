@@ -10,3 +10,27 @@ html,body{
     align-items: center;
 }
 
+h1:after{
+    content: " ";
+    animation: 7s swap infinite;
+}
+
+@keyframes swap {
+    0% {
+        content: " JAVASCRIPT";
+    }
+
+    25%{
+        content: " TYPESCRIPT";
+    }
+    50%{
+        content: " REACT";
+    }
+    75%{
+        content: " VITE ";
+    }
+
+    100%{
+        content: " JAVASCRIPT";
+    }
+}
